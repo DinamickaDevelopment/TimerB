@@ -686,10 +686,7 @@ div.countDays span.Days {
             width: 210px;
         }
 
-        body {
-            background-position: center -146px;
     
-            }
 
 
         .flip-clock-wrapper {
@@ -707,14 +704,19 @@ div.countDays span.Days {
 
         .flip-clock-wrapper {
          
-             width:290px !important;           
+             width:305px !important;
+             padding-left:15px          
                       
         }
 
     #mc_embed_signup .mc-field-group input {
     text-align:center;
     }
- 
+
+     body {
+            background-position: center -123px;
+    
+            }
 
 }
 
