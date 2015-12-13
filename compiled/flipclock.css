@@ -587,18 +587,13 @@
 
 }
 
-@media screen and (min-width: 603px) and (max-width: 767px) {
-    /*.flip-clock-wrapper {
+/*@media screen and (min-width: 603px) and (max-width: 767px) {
+    .flip-clock-wrapper {
         width: 55%;
         left: 0;
         top: 0;
-    }*/
-
-
-
-    /*--------timer*/
-
-
+    }
+    
      .flip-clock-wrapper ul li{
          width:60%;
         height:68%;
@@ -607,10 +602,10 @@
 
 
      .flip-clock-wrapper {
-        /*left: 27%;
+        left: 27%;
         top: 16px;
         width:72%;
-        height:70px;*/
+        height:70px;
     }
 
         .flip-clock-wrapper ul {
@@ -657,7 +652,7 @@
 
 
 
-}
+}*/
 
 @media (max-width: 460px) {
 
