@@ -342,12 +342,12 @@ margin-left:8%;
 }
 
 
-@media screen and (max-width: 1204px){
+/*@media screen and (max-width: 1204px){
 
     .tagline{
         font-size: 2.3em;
     }
-}
+}*/
 .soon {
     color: white;
     font-family: proximanova-light;
@@ -627,7 +627,7 @@ div.countDays span.Days {
 }
 
 @media(min-width:320px) {
-    /*html,body{height: 860px;}*/
+   
 
     #MSGtitle {
         font-size: 2.5em;
@@ -723,24 +723,99 @@ div.countDays span.Days {
 }
 }
 
- @media screen and (min-width: 795px) and (max-width: 991px)  {
+/*@media screen (max-width: 320px){
+.tagline {
+
+           margin-left:0;
+            font-size:0.587em;
+    }
+
+ }*/
+
+ @media screen and (min-width: 768px) and (max-width: 992px)  {
 
 .tagline {
-        /*text-align: left;*/
-        /*margin:auto;*/
+
             margin-bottom:3%;
-           
-            font-size:2.129em;
+           width:60%;
+            font-size:2.04em;
+            margin:auto;
     }
+
+div.form_cover{
+    margin-top:35%;
+}
+}
+@media screen and (min-width: 460px) and (max-width: 768px) {
+.tagline {
+
+            margin-bottom:3%;
+           width:84%;
+            font-size:1.7em;
+            margin:auto;
+    }
+div.form_cover{
+    margin-top:62%;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+.tagline {
+
+            margin-bottom:3%;
+           width:63%;
+            font-size:1.2em;
+            margin:auto;
+    }
+div.form_cover{
+    margin-top:62%;
+}
+
+/*----------------------placeholder-------------------*/
+
+
+ #mc_embed_signup input::-webkit-input-placeholder {
+        color: #000;
+        font-family:AvenirLTStd-Medium;
+        font-size:12px;
+        height:10px;
+    }
+
+    #mc_embed_signup input::-moz-placeholder {
+        color: #000;
+        font-family:AvenirLTStd-Medium;
+        font-size:12px;
+        height:10px;
+    }
+    /* firefox 19+ */
+    #mc_embed_signup input:-ms-input-placeholder {
+        color: #000;
+        font-family:AvenirLTStd-Medium;
+        font-size:12px;
+        height:10px;
+    }
+    /* ie */
+    #mc_embed_signup input:-moz-placeholder {
+         color: #000;
+        font-family: proximanova-semibold;
+        font-family:AvenirLTStd-Medium;
+            font-size:12px;
+            height:10px;
+    }
+
+    #mc_embed_signup .mc-field-group input{
+        line-height:3.5;
+        padding:0 30px;
+    }
+
 }
 
 
- @media screen and (min-width: 321px) and (max-width: 794px)  {
+ /*@media screen and (min-width: 321px) and (max-width: 794px)  {
 
 .tagline {
-        /*text-align: left;*/
-        /*margin:auto;*/
-            /*margin-bottom:5%;*/
+
            margin-left:13%;
             font-size:2.129em;
     }
@@ -749,9 +824,7 @@ div.countDays span.Days {
  @media screen and (max-width: 768px) and (min-width: 550px){
 
 .tagline {
-        /*text-align: left;*/
-        /*margin:auto;*/
-            /*margin-bottom:5%;*/
+
            margin-left:11%;
             font-size:2.0em;
     }
@@ -760,25 +833,14 @@ div.countDays span.Days {
  @media screen and (max-width: 550px) and (min-width: 320px){
 
 .tagline {
-        /*text-align: left;*/
-        /*margin:auto;*/
-            /*margin-bottom:5%;*/
+
            margin-left:13%;
             font-size:1.587em;
     }
 
- }
+ }*/
 
- @media screen (max-width: 320px){
-.tagline {
-        /*text-align: left;*/
-        /*margin:auto;*/
-            /*margin-bottom:5%;*/
-           margin-left:0;
-            font-size:0.587em;
-    }
-
- }
+ 
 
 
 
@@ -898,7 +960,7 @@ div.countDays span.Days {
 
     div.form_cover {
         height: 45% !important;
-        margin-top:26%;
+        margin-top:22%;
     }
 
     .mobcenter {
