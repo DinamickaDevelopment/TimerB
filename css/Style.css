@@ -733,7 +733,9 @@ div.countDays span.Days {
  }*/
 
  @media screen and (min-width: 768px) and (max-width: 992px)  {
-
+     body{
+         background-position:center -54px;
+     }
 .tagline {
 
             margin-bottom:3%;
@@ -1019,7 +1021,7 @@ div.form_cover{
         text-align: left;
         margin:auto;
             margin-bottom:-3%;
-           
+           width:70%;
             font-size:2.129em;
     }}
 
