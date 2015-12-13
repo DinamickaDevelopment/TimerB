@@ -686,14 +686,64 @@ div.countDays span.Days {
             width: 210px;
         }
 
+        body {
+            background-position: center -146px;
+    
+            }
 
 
         .flip-clock-wrapper {
          
             display:table;
-            margin: 0 auto;  
+            margin: 0 auto;
+            
+                      
         }
+ 
+    
 }
+
+@media screen and (max-width: 550px) and (min-width: 320px) {
+
+        .flip-clock-wrapper {
+         
+             width:290px !important;           
+                      
+        }
+
+    #mc_embed_signup .mc-field-group input {
+    text-align:center;
+    }
+ 
+
+}
+
+/*@media(min-width: 321px) and (max-width: 359px) {
+
+          .flip-clock-wrapper {
+          width:290px !important;
+         }
+}*/
+
+/*@media  (min-width: 360px) and (max-width: 459px)   {
+
+        .flip-clock-wrapper {
+          width:76% !important;
+         }
+        
+}
+
+
+@media (min-width: 460px) and (max-width: 550px) {
+
+        .flip-clock-wrapper {
+          width:76% !important;
+}
+
+}*/
+
+
+
 
 @media(min-width:796px) {
     .mobcenter {
@@ -751,6 +801,11 @@ div.countDays span.Days {
         .progressbarCover .progressbar_for_timer {
             width: 380px;
         }
+
+        /*.flip-clock-wrapper{
+            width:auto !important;
+        }*/
+
 }
 
 @media(min-width:993px) {
