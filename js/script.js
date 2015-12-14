@@ -8,26 +8,25 @@ $(document).ready(function () {
         
     var remain_time = finish_time - current_time;
 
-    var full_period = finish_time - start_time;
+    var remain_time = remain_time / 1000; 
+
+    //var full_period = finish_time - start_time;
 
     var clock;
 
     $(document).ready(function () {
         var clock;
 
-        clock = $('.clock').FlipClock({
+        clock = $('.clock').FlipClock(remain_time, {
             clockFace: 'DailyCounter',
-            autoStart: false,
-            callbacks: {
-                stop: function () {
-                    $('.message').html('The clock has stopped!')
-                }
-            }
+            autoStart: true,
+            countdown: true,
+            
         });
 
-        clock.setTime(220880);
-        clock.setCountdown(true);
-        clock.start();
+        //clock.setTime(remain_time);
+        //clock.setCountdown(true);
+        //clock.start();
 
     });
     
@@ -86,7 +85,7 @@ $(document).ready(function () {
 
         Buttons_array[i].onclick = function () {
 
-            window.location = "http://city.fuseforex.com/";
+            window.location = "http://dinamickadevelopment.github.io/TimerB/index.html";
 
 
         }
