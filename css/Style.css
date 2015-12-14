@@ -14,9 +14,9 @@
 /*NEWnew*/
 
 body {
-    background-image: url('../img/bg6.png');
+    background-image: url('../img/Timer_B_Background.jpg');
     background-repeat: no-repeat;
-    background-position: center -246px;
+    background-position: center top;
     background-size: cover;
     background-color:#060a0d;
 }
@@ -26,20 +26,27 @@ body {
     position:relative;
 }
 
+.navbar {
+
+    min-height:65px!important;
+    border-top: 2px solid rgb(13,17,22);
+
+}
+
+
+
 /*----------------------tweet--------------------------*/
 
 .tweet {
     display: block;
     width: 50px;
     height: 50px;
-    margin-top:1%;
+    margin-top:6px;
     
     
     position: absolute;
-    /*left: 80%;*/
-    right: 10%;
-    top: 31%;
-    
+    right: 0;
+       
   
 
      border: 2px solid transparent;
@@ -98,6 +105,8 @@ svg.twitter {
             -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d; 
             cursor:pointer;
+            position:absolute;
+            left:0;
         }
 
         .back, .front {
@@ -241,12 +250,13 @@ svg.twitter {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     cursor: pointer;
+    margin-top:11px;
 }
 
 .back, .front {
     position: absolute;
     width: 142px;
-    height: 55px;
+    height: 40px;
     -moz-transition: all .8s;
     -o-transition: all .8s;
     -webkit-transition: all .8s;
@@ -610,15 +620,32 @@ div.countDays span.Days {
         font-size: 1.3em;
     }
 
+    .navbar-nav {
+    margin:0;
+    }
+
+    .navbar-header {
+    float:left;
+    }
+
     div.timer_cover {
         height: auto !important;
         padding-left: 0;
         padding: 10px 0;
     }
 
+    .card {
+     left:10px;
+    }
+
+    .tweet {
+       right:10px;
+    }
+
+
     div.form_cover {
-            position:absolute;
-        bottom:30px;
+        position:absolute;
+        bottom:75px;
     }
 
     .mobcenter {
@@ -714,7 +741,7 @@ div.countDays span.Days {
     }
 
      body {
-            background-position: center -123px;
+            background-position: center 0;
     
             }
 
@@ -747,7 +774,7 @@ div.countDays span.Days {
 
 
 
-@media(min-width:796px) {
+@media(min-width:768px) {
     .mobcenter {
         margin: 0 auto;
         width: 65%;
@@ -804,9 +831,12 @@ div.countDays span.Days {
             width: 380px;
         }
 
-        /*.flip-clock-wrapper{
-            width:auto !important;
-        }*/
+       div.form_cover {
+
+        position:absolute;        
+        bottom:100px;
+
+    }
 
 }
 
@@ -840,9 +870,8 @@ div.countDays span.Days {
         }
 
     div.form_cover {
-        
-        position:absolute;
-        bottom:30px;
+                
+        bottom:120px;
 
     }
 
