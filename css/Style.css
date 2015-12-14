@@ -610,7 +610,10 @@ div.countDays span.Days {
 }
 
 @media(min-width:320px) {
-   
+
+    body {
+    background-image:url(../img/Timer_B_Background.jpg);
+    }
 
     #MSGtitle {
         font-size: 2.5em;
@@ -713,14 +716,10 @@ div.countDays span.Days {
             width: 210px;
         }
 
-    
-
-
         .flip-clock-wrapper {
          
             display:table;
-            margin: 0 auto;
-            
+            margin: 0 auto;      
                       
         }
  
@@ -731,8 +730,8 @@ div.countDays span.Days {
 
         .flip-clock-wrapper {
          
-             width:305px !important;
-             padding-left:15px          
+             width:300px !important;
+             padding-left:10px          
                       
         }
 
@@ -775,6 +774,11 @@ div.countDays span.Days {
 
 
 @media(min-width:768px) {
+    
+    body {
+          /*background-image:url(../img/bg6.png);*/
+    }
+    
     .mobcenter {
         margin: 0 auto;
         width: 65%;
