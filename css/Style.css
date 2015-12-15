@@ -14,7 +14,7 @@
 /*NEWnew*/
 
 body {
-    background-image: url('../img/bg5.png');
+    
     background-repeat: no-repeat;
     background-position: center -280px;
     background-size: cover;
@@ -612,7 +612,7 @@ div.countDays span.Days {
 @media(min-width:320px) {
 
     body {
-    /*background-image:url(../img/Timer_B_Background.jpg);*/
+    background-image:url(../img/Timer_B_Background.jpg);
     }
 
     #MSGtitle {
@@ -740,6 +740,8 @@ div.countDays span.Days {
     }
 
      body {
+             
+            
             background-position: center 0;
     
             }
@@ -776,7 +778,8 @@ div.countDays span.Days {
 @media(min-width:768px) {
     
     body {
-          /*background-image:url(../img/bg6.png);*/
+          background-position: center;
+          background-image:url(../img/bg5.png);
     }
     
     .mobcenter {
@@ -845,7 +848,11 @@ div.countDays span.Days {
 }
 
 @media(min-width:993px) {
-    /*html,body{height: 100%;}*/
+
+    body {
+     background-image: url('../img/bg5.png');
+    
+    }
 
     
 
