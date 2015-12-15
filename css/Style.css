@@ -396,7 +396,7 @@ div.clear input#mc-embedded-subscribe {
 #mc_embed_signup .mc-field-group input {
     border-radius: 11px;
     width: 100%;
-    /*margin-left: 20%;*/
+    outline:none;
     display: block;
     /*line-height: 0.95;*/
     height: 47px;
