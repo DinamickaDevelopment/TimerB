@@ -613,6 +613,7 @@ div.countDays span.Days {
 
     body {
     background-image:url(../img/Timer_B_Background.jpg);
+    background-position: center;
     }
 
     #MSGtitle {
