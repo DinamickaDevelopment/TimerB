@@ -14,9 +14,9 @@
 /*NEWnew*/
 
 body {
-    background-image: url('../img/Timer_B_Background.jpg');
+    background-image: url('../img/bg5.png');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center -280px;
     background-size: cover;
     background-color:#060a0d;
 }
@@ -612,7 +612,7 @@ div.countDays span.Days {
 @media(min-width:320px) {
 
     body {
-    background-image:url(../img/Timer_B_Background.jpg);
+    /*background-image:url(../img/Timer_B_Background.jpg);*/
     }
 
     #MSGtitle {
@@ -875,8 +875,9 @@ div.countDays span.Days {
 
     div.form_cover {
                 
-        bottom:120px;
-
+        bottom:60px;
+        /*min-height:100%;*/
+        /*background-color:rgba(33,33,33,0.93);*/
     }
 
     .mobcenter {
