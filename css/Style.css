@@ -779,8 +779,7 @@ div.countDays span.Days {
 @media(min-width:768px) {
     
     body {
-          background-position: center;
-          background-image:url(../img/bg5.png);
+          background-position: center;         
     }
     
     .mobcenter {
@@ -852,7 +851,7 @@ div.countDays span.Days {
 
     body {
      background-image: url('../img/bg5.png');
-    background-position:center -280px;
+     background-position:center -280px;
     }
 
     

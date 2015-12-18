@@ -85,7 +85,7 @@ $(document).ready(function () {
 
         Buttons_array[i].onclick = function () {
 
-            window.location = "http://dinamickadevelopment.github.io/TimerB/index.html";
+            window.location = "http://poker.fuseforex.com/";
 
 
         }
